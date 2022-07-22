@@ -12,7 +12,6 @@ const Logo = () => {
     const solidLogoRef = useRef();
     const didAnimate = useRef(false);
     
-
     useEffect(() => {
       gsap.registerPlugin(DrawSVGPlugin)
 
