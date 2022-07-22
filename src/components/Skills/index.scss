@@ -1,0 +1,174 @@
+.skills-list{
+    .icons{
+        font-size: 25px;
+        display: inline-block;
+        animation: swing 1s 2s;
+        animation-iteration-count: infinite;
+    }
+
+    .front-end{
+
+        width: 50%;
+        height: 100%;
+        top: -200px;
+        padding-top: 18%;
+        margin-left: 0;
+        position: absolute;
+        right: -60px;
+        overflow: hidden;
+        
+        animation: fadeIn 3.5s 1s;
+        p{
+            font-family: 'Poppins';
+            font-size: 18px;
+            color: #ffd700;
+            font-weight: 500;
+        }
+
+        .front-end-name{
+            p{
+                font-size: 15px;
+                font-weight: 100;
+                color: #e6e6e6;
+            }
+        }
+    }
+
+    .back-end{
+
+        width: 50%;
+        height: 100%;
+        top: -200px;
+        padding-top: 18%;
+        margin-left: 0;
+        position: absolute;
+        right: -220px;
+        overflow: hidden;
+        animation: fadeIn 4.5s 1s;
+        p{
+            font-family: 'Poppins';
+            font-size: 18px;
+            font-weight: 500;
+            color: #ffd700;
+        }
+
+        .back-end-name{
+            p{
+                font-size: 15px;
+                font-weight: 100;
+                color: #e6e6e6;
+            }
+        }
+    }
+
+    .database{
+
+        width: 50%;
+        height: 100%;
+        top: -200px;
+        padding-top: 18%;
+        margin-left: 0;
+        position: absolute;
+        right: -350px;
+        overflow: hidden;
+        animation: fadeIn 5.5s 1s;
+        p{
+            font-family: 'Poppins';
+            font-size: 18px;
+            font-weight: 500;
+            color: #ffd700;
+        }
+
+        .database-name{
+            p{
+                font-size: 15px;
+                font-weight: 100;
+                color: #e6e6e6;
+            }
+        }
+    }
+
+    .technology{
+
+        width: 50%;
+        height: 100%;
+        top: 20px;
+        padding-top: 18%;
+        margin-left: 0;
+        position: absolute;
+        right: -340px;
+        overflow: hidden;
+        animation: fadeIn 6.5s 1s;
+        p{
+            font-family: 'Poppins';
+            font-size: 18px;
+            font-weight: 500;
+            color: #ffd700;
+        }
+
+        .technology-name{
+            p{
+                font-size: 15px;
+                font-weight: 100;
+                color: #e6e6e6;
+            }
+        }
+    }
+
+    .editing{
+
+        width: 50%;
+        height: 100%;
+        top: -200px;
+        padding-top: 18%;
+        margin-left: 0;
+        position: absolute;
+        right: -500px;
+        overflow: hidden;
+        animation: fadeIn 7.5s 1s;
+        p{
+            font-family: 'Poppins';
+            font-size: 18px;
+            font-weight: 500;
+            color: #ffd700;
+        }
+
+        .editing-name{
+            p{
+                font-size: 15px;
+                font-weight: 100;
+                color: #e6e6e6;
+            }
+        }
+    }
+
+    .skills{
+
+        width: 50%;
+        height: 100%;
+        top: -65px;
+        padding-top: 18%;
+        margin-left: 0;
+        position: absolute;
+        right: -500px;
+        overflow: hidden;
+        animation: fadeIn 7.5s 1s;
+        p{
+            font-family: 'Poppins';
+            font-size: 18px;
+            font-weight: 500;
+            color: #ffd700;
+        }
+
+        .skills-name{
+            p{
+                font-size: 15px;
+                font-weight: 100;
+                color: #e6e6e6;
+            }
+        }
+    }
+
+
+
+}
