@@ -10,13 +10,13 @@ const Logo = () => {
     const bgRef = useRef();
     const outlineLogoRef = useRef();
     const solidLogoRef = useRef();
-    const didAnimate = useRef(false);
+    const animating = useRef(false);
     
     useEffect(() => {
       gsap.registerPlugin(DrawSVGPlugin)
 
-      if (didAnimate.current) { return; }
-        didAnimate.current = true;
+      if (animating.current) { return; }
+        animating.current = true;
 
         gsap.timeline()
 
@@ -27,7 +27,7 @@ const Logo = () => {
 
         .from(outlineLogoRef.current, {
             drawSVG: 0,
-            duration: 20,
+            duration: 22,
           });
 
       gsap.fromTo(
