@@ -36,12 +36,6 @@ const Sidebar = () => (
         <ul>
 
             <li>
-                <a className='cv' target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1nOMfNQ5MTopmhTZFe1Mp3sJUwErRNAft/view?usp=sharing'>
-                    <FontAwesomeIcon icon={faFilePdf} color='#4d4d4e' />
-                </a>
-            </li>
-
-            <li>
                 <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/viran-ranaraja-6064a623a/'>
                     <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
                 </a>
