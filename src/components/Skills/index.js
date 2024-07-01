@@ -3,8 +3,8 @@ import Loader from 'react-loaders'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss3Alt, faFigma, faGitAlt, faHtml5, faJava, faJsSquare, faNodeJs, faPhp, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
-import { faCode, faDatabase, faHSquare, faUser, faUserCheck, faUserGroup, faUsers } from '@fortawesome/free-solid-svg-icons'
+import { faAppStore, faCss3Alt, faDocker, faFigma, faGitAlt, faGolang, faHtml5, faJava, faJsSquare, faNodeJs, faPhp, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faCode, faDatabase, faHSquare, faMobileAlt, faUser, faUserCheck, faUserGroup, faUsers } from '@fortawesome/free-solid-svg-icons'
 
 
 const Skills = () => {
@@ -65,6 +65,12 @@ const Skills = () => {
                     <div className='front-end-name'>
                         <p>PHP</p>
                     </div>
+                    <div className='icons'>
+                        <FontAwesomeIcon icon={faAppStore} color='#6145ed'/>
+                    </div>
+                    <div className='front-end-name'>
+                        <p>Flutter</p>
+                    </div>
                 </div>
 
                 <div className='back-end'>
@@ -94,6 +100,12 @@ const Skills = () => {
                     <div className='back-end-name'>
                         <p>Java</p>
                     </div>
+                    <div className='icons'>
+                        <FontAwesomeIcon icon={faGolang} color='#ff3333'/>
+                    </div>
+                    <div className='back-end-name'>
+                        <p>GoLang</p>
+                    </div>
                 </div>
 
                 <div className='database'>
@@ -110,6 +122,12 @@ const Skills = () => {
                     </div>
                     <div className='database-name'>
                         <p>SQL</p>
+                    </div>
+                    <div className='icons'>
+                        <FontAwesomeIcon icon={faDatabase} color='576ddb'/>
+                    </div>
+                    <div className='database-name'>
+                        <p>Azure</p>
                     </div>
                 </div>
                 <div className='technology'>
@@ -132,6 +150,12 @@ const Skills = () => {
                     </div>
                     <div className='technology-name'>
                         <p>Heroku</p>
+                    </div>
+                    <div className='icons'>
+                        <FontAwesomeIcon icon={faDocker} color="#9d4dff"/>
+                    </div>
+                    <div className='technology-name'>
+                        <p>Docker</p>
                     </div>
                 </div>
                 <div className='editing'>
